@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    background-color: #fff;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    
+    z-index: 200;
+    height: 50px;
+    /* FIXME */
+    width: 1000px;
+    left: calc(50% - 500px);
+}
+.nav a {
+    color: #222;
+}
+.navleft {
+    display: flex;
+}
+.navleft .navitem {
+    margin-right: 10px;
+}
+.navright {
+    display: flex;
+}
+.navright .navitem {
+    margin-left: 10px;
+}
+
+/* * */
+.navbg {
+    height: 300px;
+    background-color: var(--main);
+}

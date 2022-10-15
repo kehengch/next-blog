@@ -1,0 +1,10 @@
+.main {
+  width: 100%;
+}
+.article {
+  /* FIXME */
+  width: 1000px;
+  margin: 10px auto;
+  text-align: center;
+}
+

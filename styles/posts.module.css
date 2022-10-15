@@ -1,0 +1,80 @@
+.postsmain {
+  width: 100%;
+}
+.postsinnerbox {
+  width: 1000px;
+  margin: 20px auto;
+  display: flex;
+}
+/* ! markdown style */
+.postsbox {
+  flex: 7;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+.postsbox blockquote {
+  margin: 0;
+  padding: 5px 20px;
+  border-left: 4px solid var(--main);
+  background-color: var(--main-blur1);
+  position: relative;
+}
+.postsbox blockquote::before {
+  content: "!";
+  position: absolute;
+  top: -1.5rem;
+  left: -1.5rem;
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  background-color: var(--main);
+  border-radius: 50%;
+  text-align: center;
+  border: 8px solid #fff;
+  color: #fff;
+}
+.postsbox > p,
+.postsbox h1,
+.postsbox h2,
+.postsbox h3,
+.postsbox h4,
+.postsbox h5,
+.postsbox h6 {
+  margin: 20px;
+}
+.postsbox code {
+  color: var(--main);
+  font-family: Fira Code, JetBrains Mono, microsoft yahei, sans-serif;
+}
+.postsbox code::before,
+.postsbox code::after {
+  content: "`";
+}
+.postsbox pre {
+  background-color: #f5f6f9;
+  padding: 40px 20px 20px 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.postsbox pre::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  background-color: #ff5f56;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  box-shadow: 40px 0 #27c93f, 20px 0 #ffbd2e;
+}
+.postsbox pre code {
+  color: #222;
+}
+.postsbox pre code::before,
+.postsbox pre code::after {
+  content: "";
+}
+/* ! */
+.postsaside {
+  flex: 3;
+}
