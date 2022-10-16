@@ -1,13 +1,9 @@
 ---
 title: markdown测试文件
 date: "2021-11-14 23:09:50"
-tags: 
-- markdown
-- test
+tags: markdown
 author: 陈科衡
-categories: 
-- markdown
-- test
+categories: markdown
 
 excerpt: 'markdown测试文件'
 mathjax: true

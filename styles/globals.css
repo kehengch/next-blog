@@ -42,3 +42,12 @@ hr {
   border-top: 1px solid var(--main);
   margin: 20px;
 }
+.stickybg {
+  height: 50px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 149;
+}

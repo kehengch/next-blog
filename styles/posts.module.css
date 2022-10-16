@@ -25,6 +25,9 @@
   width: 1000px;
   margin: 20px auto;
 }
+.catelink a {
+  color: #222;
+}
 .postsinfo .infocate {
   display: flex;
 }
@@ -87,7 +90,7 @@
   border-left: 4px solid var(--main);
   background-color: var(--main-blur1);
   position: relative;
-  margin: 30px 20px;
+  /* margin: 30px 20px; */
 }
 .postsbox blockquote::before {
   content: "!";
@@ -147,4 +150,14 @@
 /* ! */
 .postsaside {
   flex: 3;
+}
+.info {
+  padding: 20px;
+  text-align: center;
+}
+.infologo {
+  position: relative;
+}
+.infologo img {
+  border-radius: 10px;
 }

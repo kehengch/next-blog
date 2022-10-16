@@ -1,0 +1,41 @@
+.taghead {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.tagsbox {
+    width: 500px;
+    margin: 50px auto;
+    background-color: #fafafa;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+.tagsbox span {
+    line-height: 35px;
+    margin: 8px;
+    /* 不破坏单词，但换行 */
+    white-space: nowrap;
+}
+
+.sup {
+    padding: 0 5px;
+    border-radius: 5px;
+    /* TODO color */
+    background-color: rgb(236, 55, 55);
+    color: #fff;
+}
+.list {
+    /* FIXME */
+    width: 1000px;
+    margin: 0 auto;
+}
+.list article {
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 30px 10px;
+}

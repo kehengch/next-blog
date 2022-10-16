@@ -11,7 +11,7 @@ export default function Header() {
                             <Link href="/">我的 Next 博客</Link>
                         </div>
                         <div className={styles.navitem}>
-                            <Link href="#">Lastest</Link>
+                            <Link href="/tag">Tag</Link>
                         </div>
                         <div className={styles.navitem}>
                             <Link href="#">about</Link>

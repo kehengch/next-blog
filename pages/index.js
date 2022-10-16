@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import {getSortedPosts} from "../lib/getPosts"; 
@@ -6,8 +7,11 @@ import {getSortedPosts} from "../lib/getPosts";
 export default function Home({ front }) {
   return (
     <>
+      <Head>
+        <title>主页</title>
+      </Head>
       <mian className={styles.main}>
-        <div className={styles.Stickybg}></div>
+        <div className="stickybg"></div>
         <div className={styles.index}>
           <div className={styles.indexleft}>
             <div>
@@ -19,6 +23,11 @@ export default function Home({ front }) {
                         <Link href={'/posts/' + item.id}>{item.title}</Link>
                       </h3>
                       <div>{item.date}</div>
+                      <div>
+                        <button type="button">
+                          <Link href={'/posts/' + item.id}>More</Link>
+                        </button>
+                      </div>
                     </article>
                   )
                 })
