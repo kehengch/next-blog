@@ -5,6 +5,8 @@
   width: 1000px;
   margin: 20px auto;
   display: flex;
+  /* FIXME */
+  flex-wrap: wrap;
 }
 .postsStickybg {
   height: 50px;
@@ -36,10 +38,12 @@
   margin: 10px;
 }
 .poststags {
-  padding: 20px;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 .poststags span {
-  margin: 10px 10px 10px 0;
+  margin: 5px;
   cursor: pointer;
   padding: 5px 10px;
   transition: all 0.3s ease;

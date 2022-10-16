@@ -6,7 +6,6 @@ author: 陈科衡
 categories: markdown
 
 excerpt: 'markdown测试文件'
-mathjax: true
 mermaid: true
 ---
 
@@ -145,6 +144,9 @@ $\cos 2\theta = \cos^2 \theta - \sin^2 \theta = 2 \cos^2 \theta$
 ```
 
 $\cos 2\theta = \cos^2 \theta - \sin^2 \theta = 2 \cos^2 \theta$
+
+
+
 
 ### 行间公式
 
