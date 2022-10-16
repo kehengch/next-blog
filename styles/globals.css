@@ -10,6 +10,7 @@ a {
   color: var(--main);
   text-decoration: none;
   border-bottom: dashed 1px var(--main);
+  transition: all 0.3s ease;
 }
 a:hover {
   color: var(--main-dark);
@@ -23,6 +24,7 @@ a:hover {
   --main: #00e09e; /* 青色 */
   --main-dark: #0bce93;
   --main-blur1: rgba(0, 224, 158, .1);
+  --main-blur2: rgba(0, 224, 158, .2);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,4 +35,10 @@ a:hover {
     color: white;
     background: black;
   }
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--main);
+  margin: 20px;
 }

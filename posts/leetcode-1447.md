@@ -37,6 +37,7 @@ slug: leetcode1447
 ### 数学法
 利用最大公约数的办法，求分子分母的最大公约数；如果最大公约数是1，则证明分子分母不可以相互约去，是**最简分数**。
 求最大公约数（Greatest Common Divisor，缩写为GCD）可以使用`gcd`函数，有的语言内置 `gcd` 函数 ；
+
 js里没有，需要创建一个`gcd`函数来求最大公约数（[辗转相除法](https://baike.baidu.com/item/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95/1647675?fr=aladdin)）；
 
 #### 代码

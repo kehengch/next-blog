@@ -6,11 +6,80 @@
   margin: 20px auto;
   display: flex;
 }
+.postsStickybg {
+  height: 50px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 149;
+}
+.postsinfo {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  /* FIXME */
+  width: 1000px;
+  margin: 20px auto;
+}
+.postsinfo .infocate {
+  display: flex;
+}
+.postsinfo .infocate div:not(:last-child)::after {
+  content: ">";
+  margin: 10px;
+}
+.poststags {
+  padding: 20px;
+}
+.poststags span {
+  margin: 10px 10px 10px 0;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.poststags span:hover {
+  background-color: var(--main-blur1);
+}
+.poststags span code{
+  font-family: Fira Code, JetBrains Mono, microsoft yahei, sans-serif;
+}
+.poststags span code::before {
+  content: "#";
+}
 /* ! markdown style */
-.postsbox {
+.posts {
   flex: 7;
+}
+.postsbox {
   font-size: 1rem;
   line-height: 1.8rem;
+}
+.postsbox img {
+  max-width: 100%;
+}
+.postsbox table {
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+}
+.postsbox table tr:nth-child(2n) {
+  background-color: var(--main-blur1);
+}
+.postsbox table td {
+  border: 1px solid var(--main);
+  padding: 5px;
+}
+.postsbox table th {
+  padding: 5px;
+  border: 1px solid var(--main);
+  background-color: var(--main-blur2);
 }
 .postsbox blockquote {
   margin: 0;
@@ -18,6 +87,7 @@
   border-left: 4px solid var(--main);
   background-color: var(--main-blur1);
   position: relative;
+  margin: 30px 20px;
 }
 .postsbox blockquote::before {
   content: "!";

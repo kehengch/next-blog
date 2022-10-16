@@ -5,6 +5,43 @@
   /* FIXME */
   width: 1000px;
   margin: 10px auto;
+}
+.Stickybg {
+  height: 50px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 149;
+}
+/* * index */
+.index {
+  display: flex;
+  /* FIXME */
+  width: 1000px;
+  margin: 0 auto;
+}
+.indexleft {
+  flex: 7;
+  overflow: auto;
+}
+.articleitem {
+  background-color: #f9f9f9;
+  margin: 20px 10px;
+  padding: 30px;
+  border-radius: 5px;
+}
+.indexright {
+  flex: 3;
+}
+.info {
+  padding: 20px;
   text-align: center;
 }
-
+.infologo {
+  position: relative;
+}
+.infologo img {
+  border-radius: 10px;
+}
