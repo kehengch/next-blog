@@ -11,3 +11,5 @@ next制作的博客
 <!-- Katex -->
 <!-- categories -->
 
+<!-- front-matter: slug -->
+

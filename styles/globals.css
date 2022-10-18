@@ -70,3 +70,7 @@ hr {
 ::selection {
   background-color: rgba(255, 89, 39, 0.2);
 }
+
+code, pre {
+  font-family: Fira Code, sans-serif;
+}

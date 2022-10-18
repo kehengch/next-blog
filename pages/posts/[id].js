@@ -43,9 +43,11 @@ export default function Posts({ posts }) {
           </div>
           {
             typeof posts.categories === 'string' ?
-            <div>{posts.categories}</div> : 
+            <div className={styles.catelink}>
+              <Link href={'/categories/' + posts.categories}>{posts.categories}</Link>
+            </div> : 
             posts.categories.map(cate => {
-              return <div key={cate}>{cate}</div>
+              return <div className={styles.catelink} key={cate}><Link href={'/categories/' + cate}>{ cate }</Link></div>
             }) 
           }
         </div>

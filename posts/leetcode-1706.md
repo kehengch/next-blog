@@ -3,7 +3,7 @@ title: LeetCode每日一题-1706. 球会落何处（2022-2-24）
 date: "2022-02-24 14:09:13"
 tags: 
 - JavaScript
-- leetcode
+- LeetCode
 author: 陈科衡
 categories:
 - JavaScript

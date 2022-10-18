@@ -3,7 +3,7 @@ title: LeetCode每日一题-1447. 最简分数（2022-2-10）
 date: "2022-02-10 14:09:52"
 tags: 
 - JavaScript
-- leetcode
+- LeetCode
 author: 陈科衡
 categories:
 - JavaScript

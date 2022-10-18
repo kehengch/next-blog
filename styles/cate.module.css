@@ -5,3 +5,29 @@
     width: 100%;
     text-align: center;
 }
+
+.catebox {
+    background-color: var(--main-blur1);
+    /* FIXME */
+    width: 1000px;
+    margin: 40px auto;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 5px 22px 5px var(--main-blur1);
+}
+.catelist a {
+    border: 0;
+    padding: 8px 8px 8px 20px;
+    display: block;
+    border-radius: 5px;
+}
+.catelist a:hover {
+    background-color: #fff;
+}
+.catetitle {
+    padding: 5px 5px 5px 0;
+}
+
+
+
