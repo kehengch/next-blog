@@ -14,7 +14,7 @@ export default function Header() {
                             <Link href="/tag">Tag</Link>
                         </div>
                         <div className={styles.navitem}>
-                            <Link href="#">about</Link>
+                            <Link href="/category">Category</Link>
                         </div>
                     </section>
                     <section className={styles.navright}>

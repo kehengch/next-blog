@@ -3,12 +3,13 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import {getSortedPosts} from "../lib/getPosts"; 
+import config from "../config";
 
 export default function Home({ front }) {
   return (
     <>
       <Head>
-        <title>主页</title>
+        <title>{ config.title }</title>
       </Head>
       <mian className={styles.main}>
         <div className="stickybg"></div>

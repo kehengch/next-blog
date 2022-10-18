@@ -7,7 +7,7 @@ export default function Tags({ posts }) {
     return (
         <>
             <Head>
-                <title>tags-{ posts.id }</title>
+                <title>tags - { posts.id }</title>
             </Head>
             <main>
                 <div className={styles.taghead}>

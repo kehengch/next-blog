@@ -111,13 +111,17 @@
   border: 8px solid #fff;
   color: #fff;
 }
-.postsbox > p,
 .postsbox h1,
 .postsbox h2,
 .postsbox h3,
 .postsbox h4,
 .postsbox h5,
 .postsbox h6 {
+  margin: 20px;
+  /* * 用于toc定位 */
+  scroll-margin-block: 60px;
+}
+.postsbox > p {
   margin: 20px;
 }
 .postsbox code {
@@ -164,4 +168,25 @@
 }
 .infologo img {
   border-radius: 10px;
+}
+.tocbox {
+  position: sticky;
+  top: 50px;
+  max-height: calc(100vh - 60px);
+  background-color: #fff;
+  overflow: auto;
+}
+.tocbox a {
+  color: #222;
+  border: 0;
+}
+.tocbox a:hover {
+  color: var(--main);
+}
+.tocbox ul {
+  list-style-type: none;
+  /* padding-left: 20px; */
+}
+.tocbox ul {
+  line-height: 2;
 }
