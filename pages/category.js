@@ -36,7 +36,7 @@ export default function Category({ categories }) {
             <Head>
                 <title>{ config.title } - 文章列表</title>
             </Head>
-            <min className={styles.main}>
+            <main className={styles.main}>
                 <div className={styles.head}>
                     <h1>Categories</h1>
                 </div>
@@ -47,7 +47,7 @@ export default function Category({ categories }) {
                     </div>
                     {/* <pre> {JSON.stringify(categories, null, 4)} </pre> */}
                 </article>
-            </min>
+            </main>
         </>
     )
 }

@@ -27,6 +27,8 @@
 .nav .innernav .navleft .navitem a:hover {
     color: var(--main);
     border-bottom: 1px solid var(--main);
+    background-color: #fff;
+    padding: 5px;
 }
 .navleft {
     display: flex;

@@ -11,10 +11,13 @@ export default function Header() {
                             <Link href="/">我的 Next 博客</Link>
                         </div>
                         <div className={styles.navitem}>
-                            <Link href="/tag">Tag</Link>
+                            <Link href="/tag">标签</Link>
                         </div>
                         <div className={styles.navitem}>
-                            <Link href="/category">Category</Link>
+                            <Link href="/category">分类</Link>
+                        </div>
+                        <div className={styles.navitem}>
+                            <Link href="/archives">存档</Link>
                         </div>
                     </section>
                     <section className={styles.navright}>
