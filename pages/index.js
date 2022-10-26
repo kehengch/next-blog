@@ -11,7 +11,7 @@ export default function Home({ front }) {
       <Head>
         <title>{ config.title }</title>
       </Head>
-      <mian className={styles.main}>
+      <main className={styles.main}>
         <div className="stickybg"></div>
         <div className={styles.index}>
           <div className={styles.indexleft}>
@@ -45,7 +45,7 @@ export default function Home({ front }) {
             </section>
           </div>
         </div>
-      </mian>
+      </main>
     </>
   );
 }

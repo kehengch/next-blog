@@ -1156,6 +1156,13 @@
   dependencies:
     "katex" "^0.16.2"
 
+"marked-note-extension@^0.1.5":
+  "integrity" "sha512-qOSLJdB4Hec34+H2Gj8soiG8SFyKA4AJVWUzbMD4uMtGKGeEXaHDHSHP5/o08NkLOmXO7W5AwoHAgXDnhxtWjQ=="
+  "resolved" "https://registry.npmjs.org/marked-note-extension/-/marked-note-extension-0.1.5.tgz"
+  "version" "0.1.5"
+  dependencies:
+    "marked" "^4.1.1"
+
 "marked@^4.1.0", "marked@^4.1.1":
   "integrity" "sha512-0cNMnTcUJPxbA6uWmCmjWz4NJRe/0Xfk2NhXCUHjew9qJzFN20krFnsUe7QynwqOwa5m1fZ4UDg0ycKFVC0ccw=="
   "resolved" "https://registry.npmjs.org/marked/-/marked-4.1.1.tgz"

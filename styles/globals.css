@@ -74,3 +74,42 @@ hr {
 code, pre {
   font-family: Fira Code, sans-serif;
 }
+
+/* note  */
+.note {
+  background-color: var(--main-blur1);
+}
+.note-title {
+  background-color: var(--main);
+  padding: 5px 15px;
+}
+.note-body p {
+  margin: 10px;
+  padding: 0 10px 10px 10px;
+}
+.note-info {
+  background-color: rgba(126, 209, 248, 0.1);
+}
+.note-info .note-title {
+  background-color: rgb(126, 209, 248);
+}
+.note-danger {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+.note-danger .note-title {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+}
+.note-warning {
+  background-color: rgba(255, 230, 0, 0.1);
+}
+.note-warning .note-title {
+  background-color: rgb(255, 230, 0);
+}
+.note-success {
+  background-color: rgba(2, 2, 252, 0.1);
+}
+.note-success .note-title {
+  background-color: rgb(2, 2, 252);
+  color: #fff;
+}
