@@ -52,7 +52,7 @@
 .poststags span:hover {
   background-color: var(--main-blur1);
 }
-.poststags span code{
+.poststags span code {
   font-family: Fira Code, JetBrains Mono, microsoft yahei, sans-serif;
 }
 .poststags span code::before {

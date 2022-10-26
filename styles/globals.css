@@ -2,7 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, Roboto, Ubuntu, JetBrains Mono ,Fira Code, sans-serif;
+  font-family: -apple-system, Roboto, Ubuntu, JetBrains Mono, Fira Code,
+    sans-serif;
   font-size: 16px;
   scroll-behavior: smooth;
 }
@@ -24,8 +25,8 @@ a:hover {
 :root {
   --main: #00e09e; /* 青色 */
   --main-dark: #0bce93;
-  --main-blur1: rgba(0, 224, 158, .1);
-  --main-blur2: rgba(0, 224, 158, .2);
+  --main-blur1: rgba(0, 224, 158, 0.1);
+  --main-blur2: rgba(0, 224, 158, 0.2);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,13 +72,15 @@ hr {
   background-color: rgba(255, 89, 39, 0.2);
 }
 
-code, pre {
+code,
+pre {
   font-family: Fira Code, sans-serif;
 }
 
 /* note  */
 .note {
   background-color: var(--main-blur1);
+  border-left: 8px solid var(--main);
 }
 .note-title {
   background-color: var(--main);
@@ -89,12 +92,14 @@ code, pre {
 }
 .note-info {
   background-color: rgba(126, 209, 248, 0.1);
+  border-left: 8px solid rgb(126, 209, 248);
 }
 .note-info .note-title {
   background-color: rgb(126, 209, 248);
 }
 .note-danger {
   background-color: rgba(255, 0, 0, 0.1);
+  border-left: 8px solid rgb(255, 0, 0);
 }
 .note-danger .note-title {
   background-color: rgb(255, 0, 0);
@@ -102,12 +107,14 @@ code, pre {
 }
 .note-warning {
   background-color: rgba(255, 230, 0, 0.1);
+  border-left: 8px solid rgb(255, 230, 0);
 }
 .note-warning .note-title {
   background-color: rgb(255, 230, 0);
 }
 .note-success {
   background-color: rgba(2, 2, 252, 0.1);
+  border-left: 8px solid rgb(2, 2, 252);
 }
 .note-success .note-title {
   background-color: rgb(2, 2, 252);
