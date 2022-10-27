@@ -23,9 +23,9 @@ export default function Home({ front }) {
                       <Link href={"/posts/" + item.id}>{item.title}</Link>
                     </h3>
                     <div>{item.date}</div>
-                    <div>
+                    <div className={styles.readmore}>
                       <button type="button">
-                        <Link href={"/posts/" + item.id}>More</Link>
+                        <Link href={"/posts/" + item.id}>Read More</Link>
                       </button>
                     </div>
                   </article>

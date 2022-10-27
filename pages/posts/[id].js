@@ -90,6 +90,22 @@ export default function Posts({ posts }) {
                 })
               )}
             </section>
+            <section className={styles.nextprepost}>
+              <div className={styles.nextpost} title="next post">
+                {JSON.stringify(posts.next) != "{}" && (
+                  <Link href={"/posts/" + posts.next.id}>
+                    <a>&#60; {posts.next.title}</a>
+                  </Link>
+                )}
+              </div>
+              <div className={styles.prepost} title="pre post">
+                {JSON.stringify(posts.pre) != "{}" && (
+                  <Link href={"/posts/" + posts.pre.id}>
+                    <a>{posts.pre.title} &#62;</a>
+                  </Link>
+                )}
+              </div>
+            </section>
           </article>
           <aside className={styles.postsaside}>
             <section className={styles.info}>

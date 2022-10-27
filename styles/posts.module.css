@@ -58,6 +58,27 @@
 .poststags span code::before {
   content: "#";
 }
+
+.nextprepost {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nextprepost .nextpost,
+.nextprepost .prepost {
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 4px;
+}
+.nextprepost .nextpost:hover,
+.nextprepost .prepost:hover {
+  background-color: var(--main-blur1);
+}
+.nextprepost a {
+  border: none;
+}
+
+
 /* ! markdown style */
 .posts {
   flex: 7;

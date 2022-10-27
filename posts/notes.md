@@ -44,7 +44,7 @@ Output:
 - [marked-admonition-extension](https://github.com/xiefucai/marked-admonition-extension)
 
 ## marked-note-extensin 使用示例
-注意：样式需要自己设定哦！
+> 注意：样式需要自己设定哦！
 
 ### 示例
 

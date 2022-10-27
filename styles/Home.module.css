@@ -40,3 +40,27 @@
 .infologo img {
   border-radius: 10px;
 }
+.readmore {
+  margin: 10px 0;
+  text-align: right;
+}
+.readmore button {
+  font-size: 1rem;
+  outline: none;
+  border: 1px solid var(--main);
+  border-radius: 3px;
+  background-color: transparent;
+  transition: all 0.2s linear;
+  padding: 5px 10px;
+}
+.readmore button:hover {
+  background-color: var(--main);
+}
+.readmore button:hover a {
+  color: #fff;
+}
+.readmore button a {
+  border: none;
+  transition: all 0.2s linear;
+}
+
