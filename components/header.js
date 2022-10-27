@@ -19,6 +19,9 @@ export default function Header() {
                         <div className={styles.navitem}>
                             <Link href="/archives">存档</Link>
                         </div>
+                        <div className={styles.navitem}>
+                            <Link href="/apilist">API List</Link>
+                        </div>
                     </section>
                     <section className={styles.navright}>
                     </section>
