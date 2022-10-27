@@ -9,7 +9,7 @@ export default function Posts({ posts }) {
   const content = useRef();
   const [toc, setToc] = useState([]);
 
-  useEffect(() => {
+  const getTOC = function() {
     // toc: h2\h3\h4
     const headings = content.current.querySelectorAll("h2, h3, h4");
     const strs = [];
@@ -26,8 +26,12 @@ export default function Posts({ posts }) {
         t[t.length - 1][1].push(heading.id);
       }
     });
-    setToc(strs);
-  }, [content]);
+    return strs;
+  }
+
+  useEffect(() => {
+    setToc(getTOC());
+  }, [posts]);
 
   return (
     <>
